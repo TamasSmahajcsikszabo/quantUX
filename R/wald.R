@@ -6,9 +6,9 @@
 #' @returns numeric vector of interval of length 2
 #' @export
 wald <- function(s, n, l) {
-    p  <- s/n
+    p <- s / n
     prob <- (1 - l) / 2
-    z <- qnorm(prob, lower.tail=FALSE)
-    ci <- z * sqrt((p * (1-p))/n)
-    return(c(p-ci, p+ci))
+    z <- qnorm(prob, lower.tail = FALSE)
+    ci <- z * sqrt((p * (1 - p)) / n)
+    return(c(p - ci, p + ci))
 }
