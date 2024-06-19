@@ -1,5 +1,4 @@
 #' Estimated the Wald (Laplace) confidence interval for binomial distribution
-#' 
 #' @param s success count
 #' @param n sample size
 #' @param l confifence level given as decimal, e.g. 95% is 0.95
