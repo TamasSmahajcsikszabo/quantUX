@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Tamas", "Smahajcsik-Szabo", , "tamas.smahajcsikszabo@outlook.hu", role = c("aut", "cre"),
            comment = c(ORCID = "0009-0003-5842-1844"))
-Description: What the package does (one paragraph).
+Description: Practical statistical functions for UX data analysis.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
