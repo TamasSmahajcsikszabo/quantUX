@@ -2,6 +2,7 @@
 
 export(confidence_adjusted_wald)
 export(confidence_log)
+export(confidence_percentile)
 export(confidence_t)
 export(confidence_wald)
 export(geometric_mean)
