@@ -1,4 +1,4 @@
-UX Cheatsheet:
+UX Cheatsheet
 
 Estimating confidence intervals:
 - for success rates, use `confidence_adjusted_wald()`
