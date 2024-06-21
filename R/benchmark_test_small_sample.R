@@ -8,7 +8,7 @@
 #' @param ci Boolean, if TRUE adjusted Wald confidence interval is also reported
 #' @param alpha for confidence interval
 #' @returns exact or mid- probability of benchmark is exceeded or if confidence interval is also reported a 
-#' vector of length 3 (probabiliy and two CI bounds)
+#' vector of length 3 (probability and two CI bounds)
 #' @export
 benchmark_test_small_sample <- function(s, n, t, mid = FALSE, ci = FALSE, alpha = 0.05) {
     n_fact <- factorial(n)
