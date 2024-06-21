@@ -3,6 +3,7 @@ UX Cheatsheet
 Benchmark tests:
 - for small samples, use `benchmark_test_small_sample()`
 - for large samples, use `benchmark_test_large_sample()`
+- for continuous data, use `benchmark_continuous()`
 
 Estimating confidence intervals:
 - for success rates, use `confidence_adjusted_wald()`
