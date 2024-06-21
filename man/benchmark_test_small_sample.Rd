@@ -23,7 +23,7 @@ benchmark_test_small_sample(s, n, t, mid = FALSE, ci = FALSE, alpha = 0.05)
 }
 \value{
 exact or mid- probability of benchmark is exceeded or if confidence interval is also reported a
-vector of length 3 (probabiliy and two CI bounds)
+vector of length 3 (probability and two CI bounds)
 }
 \description{
 Benchmark test for small sample (binomial distribution is used)
