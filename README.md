@@ -1,5 +1,9 @@
 UX Cheatsheet
 
+Metrics:
+- for estimating NPS from ratings, use `nps_estimator()`
+- to get the detailed groups sizes, use it with `detail = TRUE` parameter
+
 Benchmark tests:
 - for small samples, use `benchmark_test_small_sample()`
 - for large samples, use `benchmark_test_large_sample()`
