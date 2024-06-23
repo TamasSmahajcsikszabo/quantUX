@@ -5,6 +5,7 @@
 #' @param n sample size
 #' @param ci Boolean, if TRUE, confidence interval is also reported
 #' @param alpha for confidence interval
+#' @export
 benchmark_continuous <- function(m, mu, std, n, ci = FALSE, alpha = 0.1) {
     t <- (m - mu) / (std / sqrt(n))
     p <- pt(t, n - 1, lower.tail = FALSE)
