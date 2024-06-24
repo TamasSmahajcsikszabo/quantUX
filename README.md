@@ -9,7 +9,7 @@
 - for small samples, use `benchmark_test_small_sample()`
 - for large samples, use `benchmark_test_large_sample()`
 - for continuous data, use `benchmark_continuous()`
-- for task times, and other right tailed data, use `benchmark_task_time()`
+- for task times, and other right tailed data, use `benchmark_log()`
 
 ## Estimating confidence intervals:
 - for success rates, use `confidence_adjusted_wald()`
