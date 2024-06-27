@@ -10,7 +10,7 @@ benchmark_log <- function(x, mu, ci = FALSE, alpha = 0.1) {
     std_ln <- sd(x_ln)
     m_ln <- mean(x_ln, na.rm = TRUE)
     t <- (mu_ln - m_ln) / (std_ln / sqrt(length(x_ln)))
-    p <- pt(t, length(x_ln) - 2, lower.tail = FALSE)
+    p <- pt(t, length(x_ln) - 1, lower.tail = FALSE)
     if (ci) {
         ci <- confidence_log(x, 1-alpha)
         geo_mean <- geometric_mean(x)
